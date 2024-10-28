@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
 	return (
 		<main className="bg-[#0F1421] flex h-[100vh]">
