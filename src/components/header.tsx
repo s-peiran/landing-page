@@ -13,6 +13,7 @@ export const Header = () => {
 			<nav
 				className="px-5 py-2 bg-white ml-5 rounded-sm cursor-pointer font-semibold text-[#0F1421]"
 				onClick={() => handleNavigation("/")}
+				onKeyDown={() => null}
 			>
 				She peiran
 			</nav>
