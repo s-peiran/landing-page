@@ -9,19 +9,19 @@ export const Header = () => {
 	};
 
 	return (
-		<header className="flex items-center bg-[#0F1421] min-h-[70px]">
+		<header className="fixed w-full flex items-center bg-[#0F1421] min-h-[70px]">
 			<nav
 				className="px-5 py-2 bg-white ml-5 rounded-sm cursor-pointer font-semibold text-[#0F1421]"
 				onClick={() => handleNavigation("/")}
 				onKeyDown={() => null}
 			>
-				She peiran
+				She Peiran
 			</nav>
 			<nav className="ml-auto flex justify-between gap-x-5 pr-5">
-				<ul className="px-5 py-2 bg-blue-300 rounded-sm cursor-pointer">
+				<ul className="px-5 py-2 bg-blue-300 rounded-sm cursor-pointer font-semibold">
 					About
 				</ul>
-				<ul className="px-5 py-2 bg-blue-300 rounded-sm cursor-pointer">
+				<ul className="px-5 py-2 bg-blue-300 rounded-sm cursor-pointer font-semibold">
 					Projects
 				</ul>
 			</nav>
