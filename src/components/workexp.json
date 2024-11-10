@@ -1,0 +1,41 @@
+{"pints":{
+    "company": "Pints.AI",
+    "period": "Aug 2024 - Present",
+    "position": "Software Engineer Intern",
+    "prototype": {
+        "title": "100-Day LLM Prototype:",
+        "link": "https://project-x.pints.ai/"
+    },
+    "description": [
+        "Developed an AI application with TypeScript, Next.js, and React, writing over 8,500 lines of code",
+        "Performed prompt engineering to automatically populate project description and research title",
+        "Pushed out major features such as a file management system, demo view, and user dashboard",
+        "Designed and implemented the database architecture of the file upload process in the MVP"
+    ]
+},
+"meetarts":{
+    "company": "MeetArts",
+    "period": "May 2024 – Aug 2024",
+    "position": "Computer Science Intern",
+    "source":"meetarts.png",
+    "description": [
+        "Developed, tested, and built a VR virtual gallery for the artwork exhibitions using Unity",
+        "Packaged the virtual galleries into IOS and Android applications",
+        "Executed cloud hosting and cloud server migration with AWS EC2 and S3",
+        "Enforced cloud security with Trend Micro Cloud One and created backups for the website",
+        "Implemented cybersecurity measures, obtaining the CSA Cyber Essentials mark for the company"
+    ]
+},
+"block71":{
+    "company": "BLOCK71 Jakarta",
+    "period": "May 2023 – Aug 2023",
+    "position": "Program Executive Intern",
+    "source": "block71.png",
+    "description": [
+        "Secured partnerships and collaborations with regional stakeholders such as industrial incubators",
+        "Supported the Program Manager to design and organize events, talks and workshops",
+        "Interviewed startup founders and raised awareness for their company and Block71",
+        "Promoted the Block71 Branding at networking events, on top of forming connections with local startups and stakeholders while understanding the Indonesian market"
+    ]
+}
+}
