@@ -2,21 +2,23 @@
 
 import { useRouter } from "next/navigation";
 import EmailIcon from "@mui/icons-material/Email";
+import { useScreenSize } from "@/app/hooks/use-screen-size";
 
 export const Header = () => {
 	const router = useRouter();
 	const handleNavigation = (route: string) => {
 		router.push(route);
 	};
+	const { isMobile } = useScreenSize();
 
 	return (
-		<header className="sticky top-0 w-full flex items-center bg-[#0F1421] min-h-[70px]">
+		<header className="sticky top-0 w-full flex items-center max-sm:gap-5 bg-[#0F1421] min-h-[70px]">
 			<nav
 				className="px-5 py-2 bg-white ml-5 rounded-sm cursor-pointer font-semibold text-[#0F1421]"
 				onClick={() => handleNavigation("/")}
 				onKeyDown={() => null}
 			>
-				She Peiran
+				{isMobile ? "Peiran" : "She Peiran"}
 			</nav>
 			<nav className="ml-auto flex justify-between gap-x-5 pr-5">
 				<ul
@@ -39,7 +41,7 @@ export const Header = () => {
 					href="mailto:she.peiran@gmail.com"
 				>
 					<EmailIcon />
-					Contact
+					{!isMobile && "Contact"}
 				</a>
 			</nav>
 		</header>
