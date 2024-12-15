@@ -50,7 +50,7 @@ export default function Home() {
 			</div>
 
 			<Separator className="mx-auto w-[80vw] my-4" />
-			<h1 className="text-5xl md:ml-40 ml-8 md:mt-36 mt-16 pb-4 text-gray-100">
+			<h1 className="text-3xl md:text-5xl md:ml-40 ml-8 md:mt-36 mt-16 pb-4 md:pb-8 text-gray-100">
 				Experience
 			</h1>
 			<div className="flex flex-col gap-6">
