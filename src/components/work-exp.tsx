@@ -69,8 +69,8 @@ export const WorkExp = (props: TProps) => {
 		);
 	}
 	return (
-		<div className="flex w-[80vw] mx-auto mt-4 text-gray-100">
-			<div className="flex">
+		<div className="flex w-[80vw] mx-auto mt-4 text-gray-100 gap-2">
+			<div>
 				{props.company === "Pints.AI" ? (
 					<div className="pr-4">
 						<Icons.PintsAI />
@@ -79,12 +79,12 @@ export const WorkExp = (props: TProps) => {
 					<img className="h-32 w-32" src={props.source} alt={props.company} />
 				)}
 			</div>
-			<div>
-				<div className="flex w-full">
+			<div className="w-full">
+				<div className="flex pl-4">
 					<div className="flex-row flex gap-5">
 						<div className="flex-col">
 							<h1 className="text-4xl">{props.company}</h1>
-							<h1 className="ml-auto text-2xl">{props.position}</h1>
+							<h1 className="text-2xl text-gray-400">{props.position}</h1>
 						</div>
 					</div>
 					<div className="ml-auto text-2xl">{props.period}</div>
@@ -92,13 +92,13 @@ export const WorkExp = (props: TProps) => {
 				<div className="flex">
 					<div>
 						{props.prototype && (
-							<div className="flex gap-2">
+							<div className="flex gap-2 pl-4">
 								<h1 className="text-2xl font-semibold">
 									{props.prototype.title}
 								</h1>
 								<a
 									href={props.prototype?.link}
-									className="text-2xl"
+									className="text-2xl  text-gray-400"
 									target="_blank"
 									rel="noreferrer"
 								>

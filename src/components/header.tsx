@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import EmailIcon from "@mui/icons-material/Email";
 
 export const Header = () => {
 	const router = useRouter();
@@ -32,6 +33,13 @@ export const Header = () => {
 					rel="noopener noreferrer"
 				>
 					Github
+				</a>
+				<a
+					className="flex px-5 gap-1 py-2 bg-blue-300 rounded-sm cursor-pointer font-semibold"
+					href="mailto:she.peiran@gmail.com"
+				>
+					<EmailIcon />
+					Contact
 				</a>
 			</nav>
 		</header>
