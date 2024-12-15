@@ -36,11 +36,11 @@ export default function About() {
 				<h1 className="text-4xl font-sans text-gray-200">About Peiran</h1>
 				&nbsp;
 				<p className="text-white font-sans">
-					Hi there! <br /> I'm a final year student at the National Unviersity
-					of Singapore, studying bachelor of business administration,
+					Hi there! <br /> I&#39;m a final year student at the National
+					Unviersity of Singapore, studying bachelor of business administration,
 					specializing in business analytics with a second major in computer
 					science. I am passionate about technology, particularly in the area of
-					software development and artificial intelligence. I'm a full stack
+					software development and artificial intelligence. I&#39;m a full stack
 					developer with experience in React, nextJS, and postgreSQL. Deeply
 					interested in connecting with people, I can speak 4 languages namely
 					English, Chinese, Malay, and Bahasa Indonesia. Recently, I have

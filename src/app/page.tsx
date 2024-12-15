@@ -6,7 +6,7 @@ import { WorkExp } from "@/components/work-exp";
 export default function Home() {
 	return (
 		<main className="flex-col flex-1">
-			<div className="flex max-sm:flex-col h-full pt-36 pb-36">
+			<div className="flex max-sm:flex-col h-full md:pt-36 pt-16 md:pb-36 pb-12">
 				<div className="flex flex-1 flex-col w-full h-full justify-center items-center pl-5">
 					<div className="flex flex-col gap-y-10">
 						<h1 className="md:text-9xl text-6xl text-zinc-100 font-bold font-sans">
