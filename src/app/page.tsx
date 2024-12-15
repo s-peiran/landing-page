@@ -5,7 +5,7 @@ import { WorkExp } from "@/components/work-exp";
 
 export default function Home() {
 	return (
-		<main className="bg-[#0F1421]  min-h-screen flex-col flex-1">
+		<main className="flex-col flex-1">
 			<div className="flex max-sm:flex-col h-full pt-36 pb-36">
 				<div className="flex flex-1 flex-col w-full h-full justify-center items-center pl-5">
 					<div className="flex flex-col gap-y-10">
@@ -50,7 +50,7 @@ export default function Home() {
 			</div>
 
 			<Separator className="mx-auto w-[80vw] my-4" />
-			<h1 className="text-6xl md:ml-40 ml-8 mt-36 pb-4 text-gray-100">
+			<h1 className="text-5xl md:ml-40 ml-8 md:mt-36 mt-16 pb-4 text-gray-100">
 				Experience
 			</h1>
 			<div className="flex flex-col gap-6">

@@ -18,12 +18,21 @@ export const Header = () => {
 				She Peiran
 			</nav>
 			<nav className="ml-auto flex justify-between gap-x-5 pr-5">
-				<ul className="px-5 py-2 bg-blue-300 rounded-sm cursor-pointer font-semibold">
+				<ul
+					onClick={() => router.push("/about")}
+					onKeyDown={() => null}
+					className="px-5 py-2 bg-blue-300 rounded-sm cursor-pointer font-semibold"
+				>
 					About
 				</ul>
-				<ul className="px-5 py-2 bg-blue-300 rounded-sm cursor-pointer font-semibold">
-					Projects
-				</ul>
+				<a
+					href="https://github.com/s-peiran"
+					className="px-5 py-2 bg-blue-300 rounded-sm cursor-pointer font-semibold"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Github
+				</a>
 			</nav>
 		</header>
 	);

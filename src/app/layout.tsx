@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { twMerge } from "tailwind-merge";
 
 const geistSans = localFont({
 	src: "./fonts/GeistVF.woff",
@@ -28,10 +29,13 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+				className={twMerge(
+					`${geistSans.variable} ${geistMono.variable} antialiased`,
+					"flex flex-col bg-[#0F1421] min-h-dvh",
+				)}
 			>
 				<Header />
-				{children}
+				<main className="flex-grow">{children}</main>
 				<Footer />
 			</body>
 		</html>
