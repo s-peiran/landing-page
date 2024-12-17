@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
+import Image from "next/image";
 
 export default function About() {
 	const imageRef = useRef(null);
@@ -22,15 +23,11 @@ export default function About() {
 		<div className="flex max-sm:flex-col">
 			<div
 				className="flex flex-1 p-4 justify-center"
+				ref={imageRef}
 				onMouseEnter={handleMouseEnter}
 				onMouseLeave={handleMouseLeave}
 			>
-				<img
-					ref={imageRef}
-					className="h-[60vh]"
-					src="prambanan.png"
-					alt="profile"
-				/>
+				<Image height={500} width={500} src="/prambanan.png" alt="profile" />
 			</div>
 			<div className="md:max-w-[60%] md:pr-10 max-sm:p-6">
 				<h1 className="text-4xl font-sans text-gray-200">About Peiran</h1>
